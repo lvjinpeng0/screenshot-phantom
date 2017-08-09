@@ -1,0 +1,14 @@
+{
+  "name": "screen_capture",
+  "version": "1.0.0",
+  "description": "Screenshot at a fixed time in Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node dist/index.js"
+  },
+  "author": "Jerome",
+  "license": "ISC",
+  "devDependencies": {
+    "node-schedule": "1.2.0"
+  }
+}
