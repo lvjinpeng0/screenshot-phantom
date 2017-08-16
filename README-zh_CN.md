@@ -163,10 +163,10 @@ screenshot({
 ![](https://ws3.sinaimg.cn/large/006tKfTcgy1filmuj3oo2j30kl027glk.jpg)
 
 
-## 测试
+## DEMO
 
 ```
-$ npm test
+$ npm demo
 ```
 
 ## 链接

@@ -158,10 +158,10 @@ Result：
 ![](https://ws3.sinaimg.cn/large/006tKfTcgy1filmuj3oo2j30kl027glk.jpg)
 
 
-## Tests
+## Demo
 
 ```
-$ npm test
+$ npm demo
 ```
 
 ## Links
