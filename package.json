@@ -1,12 +1,33 @@
 {
   "name": "screen_capture",
   "version": "1.0.0",
-  "description": "Screenshot at a fixed time in Node.js",
-  "main": "server.js",
+  "description": "Timing screenshots on the websites and output pictures files in Node.js",
+  "main": "dist/server.js",
   "scripts": {
     "start": "node index.js",
     "test": "node test/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:lvjinpeng0/screenshot-node.git"
+  },
+  "keywords": [
+    "printscreen",
+    "screenshot",
+    "webshot",
+    "shot",
+    "screen",
+    "grab",
+    "capture",
+    "image",
+    "node",
+    "javascript",
+    "npm"
+  ],
+  "bugs": {
+    "url": "https://github.com/lvjinpeng0/screenshot-node/issues"
+  },
+  "homepage": "https://github.com/lvjinpeng0/screenshot-node",
   "author": "Jerome",
   "license": "ISC",
   "devDependencies": {

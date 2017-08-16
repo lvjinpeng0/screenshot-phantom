@@ -1,10 +1,11 @@
 'use strict';
 
-var screenshot = require('../dist/server');
+var screenshot = require('./dist/server');
 
 // var urls = ['http://172.16.117.224/fe/code-review/blob/master/20170724-20170728/project-hualuyao/creation.js', 'http://172.16.117.224/fe/code-review/tree/master/20170724-20170728/project-hualuyao', 'http://172.16.117.224/fe/code-review/tree/master'];
-var urls = ['http://172.16.117.224/fe/code-review/blob/master/20170724-20170728/project-hualuyao/creation.js', 'http://172.16.117.224/fe/code-review/tree/master/20170724-20170728/project-hualuyao'];
+// var urls = ['http://172.16.117.224/fe/code-review/blob/master/20170724-20170728/project-hualuyao/creation.js', 'http://172.16.117.224/fe/code-review/tree/master/20170724-20170728/project-hualuyao'];
 // var urls = ['http://feedback.sunlands.com/user-web/public/index.html#/QRCode?_k=ddo0nj', 'http://ehr.sunlands.com/ehr-web/#login'];
+var urls = ['http://google.com', 'http://www.bing.com/'];
 
 // 引入定时任务模块
 var schedule = require('node-schedule');
@@ -13,6 +14,7 @@ var schedule = require('node-schedule');
 // 设置定时任务规则
 var rule = new schedule.RecurrenceRule();
 rule.second = 0;
+console.log('rule',rule)
 
 /**
  * @func 开启定时任务
@@ -31,9 +33,9 @@ screenshot({
   urls,
   // rule : {'everyMinute' | 'everyHour' | 'everyDay' | 'everyWeek' | 'everyMonth'}
   // rule: 'everyHour',
-  width: 1500,
-  format: 'jpeg',
-  timeout: 15000,
-  picNamePrefix: ['我开心','我乐意'],
-  pathName: './pictures/'
+  // width: 1500,
+  // format: 'jpeg',
+  // timeout: 15000,
+  picNamePrefix: ['Rose','Jack'],
+  // pathName: './pictures/'
 });
