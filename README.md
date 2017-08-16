@@ -2,6 +2,8 @@
 
 Timing screenshots on the websites and output pictures files in Node.js
 
+[中文README](https://github.com/lvjinpeng0/screenshot-node/blob/master/README-zh_CN.md)
+
 ## Features
 
  - uses [phantom.js](http://phantomjs.org/)
