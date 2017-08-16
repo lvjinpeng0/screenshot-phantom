@@ -4,7 +4,8 @@
   "description": "Screenshot at a fixed time in Node.js",
   "main": "server.js",
   "scripts": {
-    "start": "node dist/index.js"
+    "start": "node index.js",
+    "test": "node test/index.js"
   },
   "author": "Jerome",
   "license": "ISC",

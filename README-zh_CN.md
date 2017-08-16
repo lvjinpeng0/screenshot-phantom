@@ -1,6 +1,6 @@
 # screenshot-node
 
-Timing screenshots on the websites and output pictures files in Node.js
+哈哈哈哈
 
 ## Features
 

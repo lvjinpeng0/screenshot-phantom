@@ -2,17 +2,8 @@
 
 var screenshot = require('../dist/server');
 
-// var urls = ['http://172.16.117.224/fe/code-review/blob/master/20170724-20170728/project-hualuyao/creation.js', 'http://172.16.117.224/fe/code-review/tree/master/20170724-20170728/project-hualuyao', 'http://172.16.117.224/fe/code-review/tree/master'];
-var urls = ['http://172.16.117.224/fe/code-review/blob/master/20170724-20170728/project-hualuyao/creation.js', 'http://172.16.117.224/fe/code-review/tree/master/20170724-20170728/project-hualuyao'];
-// var urls = ['http://feedback.sunlands.com/user-web/public/index.html#/QRCode?_k=ddo0nj', 'http://ehr.sunlands.com/ehr-web/#login'];
-
-// 引入定时任务模块
-var schedule = require('node-schedule');
-
-
-// 设置定时任务规则
-var rule = new schedule.RecurrenceRule();
-rule.second = 0;
+// var urls = ['http://172.16.117.224/fe/code-review/blob/master/20170724-20170728/project-hualuyao/creation.js', 'http://172.16.117.224/fe/code-review/tree/master/20170724-20170728/project-hualuyao'];
+var urls = ['https://www.baidu.com', 'https://www.sogou.com/'];
 
 /**
  * @func 开启定时任务
@@ -27,13 +18,14 @@ rule.second = 0;
  * @param {array} [options.picNamePrefix] - 输出图片的文件名前缀(与urls一一对应) - 默认urls
  * @param {string} [options.pathName] - 输出图片的路径 - 默认'./pictures/'
  */
+
 screenshot({
   urls,
   // rule : {'everyMinute' | 'everyHour' | 'everyDay' | 'everyWeek' | 'everyMonth'}
   // rule: 'everyHour',
-  width: 1500,
-  format: 'jpeg',
-  timeout: 15000,
-  picNamePrefix: ['我开心','我乐意'],
-  pathName: './pictures/'
+  // width: 1500,
+  // format: 'jpeg',
+  // timeout: 15000,
+  // picNamePrefix: ['我开心','我乐意'],
+  // pathName: './pictures/'
 });
