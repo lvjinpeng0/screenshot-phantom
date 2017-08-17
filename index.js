@@ -2,9 +2,6 @@
 
 var screenshot = require('./dist/server');
 
-// var urls = ['http://172.16.117.224/fe/code-review/blob/master/20170724-20170728/project-hualuyao/creation.js', 'http://172.16.117.224/fe/code-review/tree/master/20170724-20170728/project-hualuyao', 'http://172.16.117.224/fe/code-review/tree/master'];
-// var urls = ['http://172.16.117.224/fe/code-review/blob/master/20170724-20170728/project-hualuyao/creation.js', 'http://172.16.117.224/fe/code-review/tree/master/20170724-20170728/project-hualuyao'];
-// var urls = ['http://feedback.sunlands.com/user-web/public/index.html#/QRCode?_k=ddo0nj', 'http://ehr.sunlands.com/ehr-web/#login'];
 var urls = ['http://google.com', 'http://www.bing.com/'];
 
 // 引入定时任务模块
