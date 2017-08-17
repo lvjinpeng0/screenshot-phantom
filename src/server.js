@@ -53,7 +53,6 @@ const capture = params => {
 // 引入定时任务模块
 const schedule = require('node-schedule');
 
-
 // 设置定时任务规则
 const ruleEveryMin = '0 * * * * *';
 
@@ -163,4 +162,3 @@ module.exports = options => {
     capture(params);
   });
 };
-

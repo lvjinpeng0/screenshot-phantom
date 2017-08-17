@@ -6,14 +6,12 @@ const system = require('system');
 // system.args为传给本JS程序的所有参数
 // 如命令行执行：【 phantomjs capture.js url picName pathName width height format timeout quality 】
 // 则system.args=['capture.js', url, picName, pathName, width, height, format, timeout, quality]
-
 const [_, address, picName, pathName, width, height, format, timeout, quality] = system.args;
 
 // 设置窗口宽高
 page.viewportSize = { width, height };
 
 // 打开一个网页
-
 page.open(address, status => {
   if (status != 'success') {
     console.log('fail to load the address');

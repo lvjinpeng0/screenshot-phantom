@@ -27,7 +27,6 @@ var _system$args = _slicedToArray(system.args, 9),
 page.viewportSize = { width: width, height: height };
 
 // 打开一个网页
-
 page.open(address, function (status) {
   if (status != 'success') {
     console.log('fail to load the address');
