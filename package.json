@@ -1,5 +1,5 @@
 {
-  "name": "screen_capture",
+  "name": "@sunl-fe/screen_capture",
   "version": "1.0.0",
   "description": "Timing screenshots on the websites and output pictures files in Node.js",
   "main": "dist/server.js",
@@ -30,7 +30,7 @@
   "homepage": "https://github.com/lvjinpeng0/screenshot-node",
   "author": "Jerome",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "node-schedule": "1.2.0"
   }
 }
