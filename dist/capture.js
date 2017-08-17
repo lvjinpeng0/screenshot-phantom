@@ -27,9 +27,8 @@ var _system$args = _slicedToArray(system.args, 9),
 page.viewportSize = { width: width, height: height };
 
 // 打开一个网页
-console.log('address',address)
+
 page.open(address, function (status) {
-  console.log('status',status)
   if (status != 'success') {
     console.log('fail to load the address');
     phantom.exit();
