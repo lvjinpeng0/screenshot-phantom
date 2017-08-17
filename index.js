@@ -11,7 +11,6 @@ var schedule = require('node-schedule');
 // 设置定时任务规则
 var rule = new schedule.RecurrenceRule();
 rule.second = 0;
-console.log('rule',rule)
 
 /**
  * @func 开启定时任务
