@@ -1,6 +1,6 @@
 {
   "name": "@sunl-fe/screen_capture",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Timing screenshots on the websites and output pictures files in Node.js",
   "main": "dist/server.js",
   "scripts": {

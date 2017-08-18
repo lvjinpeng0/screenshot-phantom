@@ -22,7 +22,7 @@ const capture = params => {
   const makePic = (count) => {
     const picName = createName(picNamePrefix[count], rule).replace(/\//g, '\\');
     const spawn = require('child_process').spawn;
-    const process = spawn('phantomjs', ['dist/capture.js', urls[count], picName, pathName, width, height, format, timeout, quality]);
+    const process = spawn('phantomjs', [`${__dirname}/capture.js`, urls[count], picName, pathName, width, height, format, timeout, quality]);
     process.stdout.setEncoding('utf8');
 
 
