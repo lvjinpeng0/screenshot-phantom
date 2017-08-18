@@ -1,8 +1,8 @@
-# screenshot-node
+# screenshot-phantom
 
 基于Nodejs的定时截屏工具
 
-[README in English](https://github.com/lvjinpeng0/screenshot-node/blob/master/README.md)
+[README in English](https://github.com/lvjinpeng0/screenshot-phantom/blob/master/README.md)
 
 ## 特性
 
@@ -17,12 +17,12 @@
 
 ## 安装
 
-`npm install --save screenshot-node`
+`npm install --save screenshot-phantom`
 
 ## 使用
 
 ```javascript
-const screenshot = require('screenshot-node');
+const screenshot = require('screenshot-phantom');
 
 screenshot({
 
@@ -86,7 +86,7 @@ screenshot({
 ## 例子一
 
 ```javascript
-const screenshot = require('screenshot-node');
+const screenshot = require('screenshot-phantom');
 
 screenshot({
 
@@ -101,7 +101,7 @@ screenshot({
 or
 
 ```javascript
-const screenshot = require('screenshot-node');
+const screenshot = require('screenshot-phantom');
 const schedule = require('node-schedule');
 const rule = new schedule.RecurrenceRule();
 rule.second = 0;
@@ -120,7 +120,7 @@ screenshot({
 or
 
 ```javascript
-const screenshot = require('screenshot-node');
+const screenshot = require('screenshot-phantom');
 const rule = '0 * * * * *';
 
 screenshot({
@@ -141,7 +141,7 @@ screenshot({
 ## 例子二
 
 ```javascript
-const screenshot = require('screenshot-node');
+const screenshot = require('screenshot-phantom');
 const rule = '0 * * * * *';
 
 screenshot({

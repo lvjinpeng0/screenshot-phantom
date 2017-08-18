@@ -1,8 +1,8 @@
-# screenshot-node
+# screenshot-phantom
 
 Websites screenshots timer in Node.js
 
-[中文README](https://github.com/lvjinpeng0/screenshot-node/blob/master/README-zh_CN.md)
+[中文README](https://github.com/lvjinpeng0/screenshot-phantom/blob/master/README-zh_CN.md)
 
 ## Features
 
@@ -17,12 +17,12 @@ Regularly perform a screenshot task, the whole process of a task is: open the pa
 
 ## Install
 
-`npm install --save screenshot-node`
+`npm install --save screenshot-phantom`
 
 ## Usage
 
 ```javascript
-const screenshot = require('screenshot-node');
+const screenshot = require('screenshot-phantom');
 
 screenshot({
 
@@ -81,7 +81,7 @@ screenshot({
 ## Example 1
 
 ```javascript
-const screenshot = require('screenshot-node');
+const screenshot = require('screenshot-phantom');
 
 screenshot({
 
@@ -96,7 +96,7 @@ screenshot({
 or
 
 ```javascript
-const screenshot = require('screenshot-node');
+const screenshot = require('screenshot-phantom');
 const schedule = require('node-schedule');
 const rule = new schedule.RecurrenceRule();
 rule.second = 0;
@@ -115,7 +115,7 @@ screenshot({
 or
 
 ```javascript
-const screenshot = require('screenshot-node');
+const screenshot = require('screenshot-phantom');
 const rule = '0 * * * * *';
 
 screenshot({
@@ -136,7 +136,7 @@ The same result：
 ## Example 2
 
 ```javascript
-const screenshot = require('screenshot-node');
+const screenshot = require('screenshot-phantom');
 const rule = '0 * * * * *';
 
 screenshot({
