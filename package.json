@@ -1,5 +1,5 @@
 {
-  "name": "screenshot-node",
+  "name": "screenshot-phantom",
   "version": "1.0.0",
   "description": "Timing screenshots on the websites and output pictures files in Node.js",
   "main": "dist/server.js",
