@@ -17,7 +17,7 @@
 
 ## 安装
 
-`npm install --save-dev screenshot-node`
+`npm install --save screenshot-node`
 
 ## 使用
 

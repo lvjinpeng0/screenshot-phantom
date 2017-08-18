@@ -17,7 +17,7 @@ Regularly perform a screenshot task, the whole process of a task is: open the pa
 
 ## Install
 
-`npm install --save-dev screenshot-node`
+`npm install --save screenshot-node`
 
 ## Usage
 
